@@ -72,6 +72,25 @@ body {
     margin-inline: 1rem;
 }
 
+.navbar a {
+    position: relative;
+}
+
+.navbar a i {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: .3rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.navbar a i:hover {
+    opacity: 1;
+}
+
 .signupBtn {
     background-color: white;
     color: #FF505C;
