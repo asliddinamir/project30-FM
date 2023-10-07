@@ -419,7 +419,7 @@ hr {
     }
 
     .nav {
-        display: block;
+        display: none;
         top: -100%;
         left: 50%;
         transform: translateX(-50%);
