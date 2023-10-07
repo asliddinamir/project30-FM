@@ -322,7 +322,84 @@ footer {
     color: #FF505C;
 }
 
+.menu {
+    display: none;
+}
+
+hr {
+    display: none;
+}
+
 @media(max-width:1024px) {
+
+    .hero {
+        background-size: 200%;
+        background-position: -175px 50%;
+    }
+
+    .hero_body_title {
+        font-size: 48px;
+    }
+
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header {
+        justify-content: space-between;
+        padding: 60px 60px 0;
+    }
+
+    .nav {
+        display: block;
+        top: -100%;
+        position: absolute;
+    }
+
+    .nav.show-nav {
+        display: block;
+        width: 70%;
+        min-height: 50vh;
+        background-color: red;
+        padding: 0 2rem 1rem 2rem;
+        position: absolute;
+        top: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav.show-nav a {
+        display: block;
+        padding: 1rem;
+        font-size: 18px;
+        color: #1F3E5A;
+        opacity: 1;
+    }
+
+    .nav.show-nav a:hover {
+        text-decoration: none;
+    }
+
+    .nav.show-nav .signup {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav.show-nav .signupBtn {
+        width: 150px;
+    }
+
+    .nav.show-nav hr {
+        display: block;
+        border: 1px solid rgba(128, 128, 128, 0.586);
+    }
 
     .design {
         height: 210vh;
