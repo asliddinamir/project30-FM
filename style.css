@@ -4,3 +4,7 @@
     --overpass: 'Overpass', sans-serif;
     --ubuntu: 'Ubuntu', sans-serif;
 }
+
+body {
+    font-family: var(--overpass);
+}
