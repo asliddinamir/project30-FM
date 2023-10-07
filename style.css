@@ -173,10 +173,8 @@ h3 {
     gap: 5rem;
 }
 
-.design_info {
+.info {
     height: 100vh;
-    width: 40%;
-    margin: 0 0 0 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,12 +182,17 @@ h3 {
     gap: 5rem;
 }
 
-.design_info h3 {
+.design_info {
+    margin: 0 0 0 150px;
+    width: 40%;
+}
+
+.info h3 {
     color: #1F3E5A;
     margin: 0 0 16px;
 }
 
-.design_info p {
+.info p {
     color: #4C5862;
     line-height: 28px;
     letter-spacing: 0.5px;
@@ -241,4 +244,26 @@ h3 {
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 28px;
+}
+
+.laptop {
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.laptop_info {
+    margin: 0 100px 0 150px;
+    width: 50%;
+}
+
+.laptop_image {
+    background: url('./images/illustration-laptop-desktop.svg') no-repeat center center/cover;
+    height: 100vh;
+    width: 60%;
+    margin-block: 2rem;
+    background-position: -250px center;
 }
