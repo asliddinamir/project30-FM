@@ -354,6 +354,8 @@ hr {
     .nav {
         display: block;
         top: -100%;
+        left: 50%;
+        transform: translateX(-50%);
         position: absolute;
     }
 
@@ -361,7 +363,7 @@ hr {
         display: block;
         width: 70%;
         min-height: 50vh;
-        background-color: red;
+        background-color: white;
         padding: 0 2rem 1rem 2rem;
         position: absolute;
         top: 130px;
@@ -394,11 +396,13 @@ hr {
 
     .nav.show-nav .signupBtn {
         width: 150px;
+        background: linear-gradient(90deg, #FF8F71 10%, #FF3E55 58%);
+        color: #fff;
     }
 
     .nav.show-nav hr {
         display: block;
-        border: 1px solid rgba(128, 128, 128, 0.586);
+        border: .1px solid rgba(128, 128, 128, 0.586);
     }
 
     .design {
