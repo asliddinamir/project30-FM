@@ -438,7 +438,6 @@ hr {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        width: 100%;
     }
 
     .phone img {
@@ -478,5 +477,39 @@ hr {
         margin: 0 2rem 5rem 2rem;
         text-align: center;
         height: auto;
+    }
+}
+
+@media(max-width:650px) {
+    .hero {
+        background-size: 200%;
+        background-position: -100px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .header {
+        padding: 45px 30px 0;
+    }
+
+    .design {
+        height: 180vh;
+    }
+
+    .design_image {
+        width: 400px;
+        height: 330px;
+    }
+
+    .phone img {
+        width: 400px;
+        height: auto;
+        margin-bottom: 100%;
+    }
+
+    .phone_info {
+        margin-top: 50%;
     }
 }
