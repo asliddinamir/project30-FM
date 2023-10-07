@@ -145,3 +145,61 @@ h1 {
     background-color: #fff;
     color: hsl(355, 100%, 74%);
 }
+
+.design {
+    height: 140vh;
+    padding-block: 5rem;
+    overflow: hidden;
+}
+
+.design_title {
+    color: #1F3E5A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    line-height: 61.28px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.design_body {
+    display: flex;
+    gap: 5rem;
+}
+
+.design_info {
+    height: 100vh;
+    width: 40%;
+    margin: 0 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.design_info h3 {
+    color: #1F3E5A;
+    margin: 0 0 16px;
+}
+
+.design_info p {
+    color: #4C5862;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin: 0;
+}
+
+.design_image {
+    background: url('./images/illustration-editor-desktop.svg') no-repeat center center/cover;
+    height: auto;
+    width: 50%;
+    background-position: 0;
+}
