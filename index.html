@@ -18,9 +18,30 @@
         <img class="logo" src="./images/logo.svg" alt="logo">
         <div class="nav show-nav">
           <div class="navbar">
-            <a href="#">Product <i class="fas fa-angle-down"></i></a>
-            <a href="#">Company <i class="fas fa-angle-down"></i></a>
-            <a href="#">Connect <i class="fas fa-angle-down"></i></a>
+            <a href="#" data-dropdown="dropdown1">Product <i class="fas fa-angle-down"></i>
+              <div class="dropdown" id="dropdown1">
+                <a href="#">Overview</a>
+                <a href="#">Pricing</a>
+                <a href="#">Marketplace</a>
+                <a href="#">Features</a>
+                <a href="#">Integrations</a>
+              </div>
+            </a>
+            <a href="#" data-dropdown="dropdown2">Company <i class="fas fa-angle-down"></i>
+              <div class="dropdown" id="dropdown2">
+                <a href="#">About</a>
+                <a href="#">Team</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+              </div>
+            </a>
+            <a href="#" data-dropdown="dropdown3">Connect <i class="fas fa-angle-down"></i>
+              <div class="dropdown" id="dropdown3">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">Linkedin</a>
+              </div>
+            </a>
           </div>
           <hr>
           <div class="signup">

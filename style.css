@@ -67,28 +67,37 @@ body {
     padding-block: 1rem;
 }
 
-.navbar a,
 .signup a {
     margin-inline: 1rem;
 }
 
 .navbar a {
     position: relative;
+    padding: 1rem;
 }
+
+.navbar a:hover i {
+    transform: rotateX(180deg);
+    top: 35%;
+}
+
 
 .navbar a i {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    padding-left: .3rem;
+    padding-left: .2rem;
     color: #fff;
     position: absolute;
     top: 50%;
     transform: translateY(-40%);
+    transition: .2s linear;
 }
 
 .navbar a i:hover {
     opacity: 1;
+    transform: rotateX(180deg);
+    top: 35%;
 }
 
 .signupBtn {
@@ -107,6 +116,43 @@ body {
 .signupBtn:hover {
     background-color: hsl(355, 100%, 74%);
     color: #fff;
+}
+
+.show {
+    display: flex !important;
+}
+
+.dropdown {
+    display: none;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: start;
+    max-width: 150px;
+    border-radius: 10px;
+    padding: 0 1rem;
+    position: absolute;
+    top: 15%;
+}
+
+.dropdown a {
+    color: hsl(208, 49%, 24%) !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    padding: 0 .5rem 1rem .5rem !important;
+    font-weight: 400 !important;
+}
+
+.dropdown a:hover {
+    font-weight: bold !important;
+}
+
+#dropdown3 {
+    left: 470px;
+}
+
+#dropdown2 {
+    left: 380px;
 }
 
 .hero_body {
@@ -383,7 +429,7 @@ hr {
     .nav.show-nav {
         display: block;
         width: 70%;
-        min-height: 50vh;
+        min-height: auto;
         background-color: white;
         padding: 0 2rem 1rem 2rem;
         position: absolute;
@@ -404,6 +450,47 @@ hr {
 
     .nav.show-nav a:hover {
         text-decoration: none;
+    }
+
+    .nav.show-nav a i {
+        color: hsl(355, 88%, 46%);
+        font-weight: bolde;
+    }
+
+    .nav.show-nav .navbar a {
+        position: relative;
+        width: 100%;
+    }
+
+    .nav.show-nav .dropdown {
+        position: relative;
+        background-color: #eee;
+        border-radius: 0;
+        left: 50%;
+        width: 200%;
+        transform: translateX(-50%);
+    }
+
+    .nav.show-nav .dropdown a {
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 18px !important;
+    }
+
+    .nav.show-nav #dropdown1 {
+        transform: translateX(-50%);
+    }
+
+    .nav.show-nav #dropdown2 {
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+    }
+
+    .nav.show-nav #dropdown3 {
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
     }
 
     .nav.show-nav .signup {
