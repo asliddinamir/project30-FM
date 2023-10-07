@@ -203,3 +203,42 @@ h3 {
     width: 50%;
     background-position: 0;
 }
+
+.phone {
+    background: url('./images/bg-pattern-circles.svg');
+    background-position: -215px -500px;
+    background-repeat: no-repeat;
+    border-radius: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    height: 400px;
+    background-color: hsl(231, 33%, 19%);
+    color: white;
+    z-index: 0;
+}
+
+.phone img {
+    height: auto;
+    width: 40%;
+    margin-left: 65px;
+    position: absolute;
+    left: 0;
+}
+
+.phone_info {
+    margin-inline: 5rem;
+    padding: 2rem;
+    height: auto;
+    position: absolute;
+    right: 0;
+    width: 45%;
+}
+
+.phone_info p {
+    margin-top: 1rem;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
