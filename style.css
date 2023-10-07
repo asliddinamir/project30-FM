@@ -33,6 +33,7 @@ body {
     padding: 59px 150px 0;
     align-items: center;
     gap: 2rem;
+    font-family: var(--ubuntu);
 }
 
 .logo {
@@ -58,6 +59,7 @@ body {
 
 .nav a:not(.signupBtn):hover {
     opacity: 1;
+    text-decoration: underline;
 }
 
 .navbar,
@@ -266,4 +268,56 @@ h3 {
     width: 60%;
     margin-block: 2rem;
     background-position: -250px center;
+}
+
+footer {
+    background-color: hsl(240, 10%, 16%);
+    border-radius: 0 100px 0 0;
+    padding: 70px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.footer_body {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ubuntu);
+}
+
+.link h4 {
+    margin-bottom: 21px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 33px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.75;
+    line-height: 33px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.attribution {
+    text-align: center;
+    color: #fff;
+}
+
+.attribution a {
+    color: #FF505C;
 }
