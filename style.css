@@ -379,4 +379,23 @@ footer {
         text-align: center;
         width: 100%;
     }
+
+    .laptop {
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+    }
+
+    .laptop_image {
+        background: url('./images/illustration-laptop-mobile.svg') no-repeat center center/contain;
+        width: 500px;
+        height: 360px;
+    }
+
+    .laptop_info {
+        width: 80%;
+        margin: 0 2rem 5rem 2rem;
+        text-align: center;
+        height: auto;
+    }
 }
