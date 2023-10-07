@@ -80,11 +80,68 @@ body {
     font-weight: 700;
     font-family: var(--ubuntu);
     cursor: pointer;
-    width: 100px;
     transition: .3s;
 }
 
 .signupBtn:hover {
     background-color: hsl(355, 100%, 74%);
     color: #fff;
+}
+
+.hero_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -1.92px;
+    line-height: 98px;
+}
+
+.hero_body p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.64px;
+}
+
+.hero_body_buttons {
+    margin-top: 3rem;
+}
+
+.hero_body_buttons button {
+    padding: 15px 25px;
+    margin-inline: .5rem;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.hero_start_btn {
+    color: #FF505C;
+    border: none;
+}
+
+.hero_start_btn:hover {
+    background-color: hsl(355, 100%, 74%);
+    color: #fff;
+    border: none;
+}
+
+.hero_learn_btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.hero_learn_btn:hover {
+    background-color: #fff;
+    color: hsl(355, 100%, 74%);
 }
